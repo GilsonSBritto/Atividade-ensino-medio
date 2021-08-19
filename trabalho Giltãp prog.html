@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<meta charset="UTF-8"/>
+
+<link rel="stylesheet" type="text/css" href="css/trabalho Giltãp prog.css">
+
+<script src="js/trabalho Giltãp prog.js"></script>
+
+<title>Pet Gateau</title>
+
+<head>
+   
+    <center><img src="imagens/Little Cat Email Header.png"></center>
+   
+    <nav>
+        <ul>
+            <li><a href="fidelidade.html">Serviços</a></li>
+            <li><a class="active" href="trabalho Giltãp prog.html">Pagina inicial</a> </li>
+        </ul>
+    </nav>
+<div class="pagina">
+    <div class="BV"><h1>Bem vindo ao sistema do Pet Gateau</h1></div>
+
+</head>
+
+<body>
+
+    <h2>Defina o porte do animal de estimação:</h2>
+
+    <div class="select"><select id="tam">
+
+        <option value="Pequeno">Pequeno</option>
+        <option value="Médio">Médio</option>
+        <option value="Grande">Grande</option>
+
+    </select></div>
+
+    <h2>Selecione os serviços extras</h2>
+
+     <div id="ext">
+            <input type="checkbox" class="extras" name="Unha" value="5">Corte de Unhas<br>
+            <input type="checkbox" class="extras" name="Tosa" value="10">Tosa Higiênica<br>
+            <input type="checkbox" class="extras" name="Xampu" value="15">Banho com Xampu Especial anti-carrapatos <br><br>    
+    </div>
+
+    <h2>Escolha um plano de fidelidade</h2>
+
+    <div class = "txtinho"><i>(se não possuir, não marcar)</i></div><br><br>
+
+	<div id="fide">
+        <form>
+            <input type="radio" class="fidelidade" name="fidi" value="2">Dois banhos por mês<br>
+            <input type="radio" class="fidelidade" name="fidi" value="3">Três banhos por mês<br>
+            <input type="radio" class="fidelidade" name="fidi" value="4">Quatro banhos por mês<br>
+            <input type="radio" class="fidelidade" name="fidi" value="5" >Mais? Quantos?<input id="input" placeholder="Insira a quantidade"></input><br><br>
+        </form> 
+    </div>
+
+    <br><br>
+
+    <button onclick="porteF (), extraF (),Fid (), final (),Total()">Calcular tudo</button>
+    <h3><div id="tot">O valor total aparecerá aqui:</div></h3>
+
+</div>
+
+</body>
+<footer>
+Para mais informações consulte ************@gmail.com
+</footer>
+</html>
